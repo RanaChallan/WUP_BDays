@@ -1,0 +1,18 @@
+---
+title: "WUP_BDays"
+author: "Rana Challan"
+date: "2023-11-09"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Introduction
+
+Dr J (my colleague) has historically made a bet with willing students in his classes on the first day of class. He has a cousin Sam and Sam also makes this same bet in his classes when the class is full (35 students is a full class).
+Sam reports that he has made this bet 637 times and he tracks his winnings/losings in a history he keeps. Here is the way the bet is stated "I will bet you $2 to your $1 that there are two students in this class that have the same birthday". If you tally up Sam's current results you would know where his bets currently stand. Let's give that number a name - call it SB for Sam's bets. Your assignment for today is to come up with a 95 percent confidence interval and an explanation on how you arrived there of the number SB.
+
+I will create a group of prototypes of birthdays for all February 29th which only happens on years divisible by four (366 days). 
+
